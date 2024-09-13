@@ -1,0 +1,45 @@
+#myh1{
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:hsl(0, 0%, 25%)
+}
+body{
+    background-color: hsl(0, 0%, 90%);
+}
+#mystopwatch{
+    text-align: center;
+    border: 5px solid;
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+}
+#myclock{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.753);
+}
+#mybtns button{
+    font-size: 1.5rem;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+#start{
+    background-color: hsl(120, 98%, 40%);
+    
+}
+#stop{
+    background-color: hsl(0, 100%, 60%);
+}
+#reset{
+    background-color: hsl(195, 51%, 60%);
+}
